@@ -270,10 +270,10 @@ header {
     color: #fff;
     background-image:
       linear-gradient(
-        rgba(126, 0, 0, 0.1),
-        rgba(126, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.75),
-        rgba(126, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3)
       ),
       url('{{ site.baseurl }}/img/header-bg.jpg');
     background-attachment: scroll;
@@ -312,13 +312,10 @@ header .intro-text .intro-heading {
     header {
     background-image:
       linear-gradient(
-        rgba(126, 0, 0, 0.1),
-        rgba(126, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 0.75),
-        rgba(126, 0, 0, 0.3),
-        rgba(126, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3)
       ),
       url('{{ site.baseurl }}/img/header-bg.jpg');
     }
