@@ -268,8 +268,15 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-image:
+      linear-gradient(
+        rgba(126, 0, 0, 0.1),
+        rgba(126, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.75),
+        rgba(126, 0, 0, 0.1)
+      ),
+      url('{{ site.baseurl }}/img/header-bg.jpg');
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -283,8 +290,9 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: -10px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
@@ -301,17 +309,53 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header {
+    background-image:
+      linear-gradient(
+        rgba(126, 0, 0, 0.1),
+        rgba(126, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75),
+        rgba(126, 0, 0, 0.3),
+        rgba(126, 0, 0, 0.1)
+      ),
+      url('{{ site.baseurl }}/img/header-bg.jpg');
+    }
+    background-image:
+      linear-gradient(
+        rgba(126, 0, 0, 0.1),
+        rgba(126, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75),
+        rgba(126, 0, 0, 0.3),
+        rgba(126, 0, 0, 0.1)
+      ),
+      url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image:
+      linear-gradient(
+        rgba(126, 0, 0, 0.1),
+        rgba(126, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75),
+        rgba(126, 0, 0, 0.3),
+        rgba(126, 0, 0, 0.1)
+      ),
+      url('{{ site.baseurl }}/img/header-bg.jpg');
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 75px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 80px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 120px;
     }
 
     header .intro-text .intro-heading {
